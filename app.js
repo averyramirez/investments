@@ -38,7 +38,7 @@ async function fetchPriceData() {
   //Iterate over data object
   data.forEach((obj) => {
     //Update price array
-    let price = Math.round(obj.PRICE);
+    let price = Math.round(obj.PRICE * 100) / 100;
     priceArr.push(price);
   });
   console.log("Price array:", priceArr);
