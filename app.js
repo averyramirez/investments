@@ -22,9 +22,9 @@ new Chart(ctx, {
     scales: {
       y: {
         beginAtZero: false,
-      },
-      ticks: {
-        callback: (value) => `$${value}`,
+        ticks: {
+          callback: (value) => `$${value}`,
+        },
       },
     },
   },
