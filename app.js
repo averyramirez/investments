@@ -23,6 +23,9 @@ new Chart(ctx, {
       y: {
         beginAtZero: false,
       },
+      ticks: {
+        callback: (value) => `$${value}`,
+      },
     },
   },
 });
