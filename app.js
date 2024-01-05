@@ -12,7 +12,7 @@ new Chart(ctx, {
     labels: dateData,
     datasets: [
       {
-        label: "Dollar Value",
+        label: "Monthly Value $",
         data: priceData,
         borderWidth: 1,
       },
