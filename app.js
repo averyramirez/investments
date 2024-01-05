@@ -44,7 +44,6 @@ async function fetchPriceData() {
     let price = Math.round(obj.PRICE * 100) / 100;
     priceArr.push(price);
   });
-  console.log("Price array:", priceArr);
   return priceArr;
 }
 
@@ -62,6 +61,5 @@ async function fetchDateData() {
     let date = obj.DATE;
     dateArr.push(date);
   });
-  console.log("Date array:", dateArr);
   return dateArr;
 }
